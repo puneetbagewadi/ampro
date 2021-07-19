@@ -47,6 +47,7 @@ export default class Header extends React.Component {
     renderNavLinks(navLinks, pageUrl) {
         return (
             <React.Fragment>
+                
                 <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
                         <button id="menu-close" className="menu-toggle" onClick={this.handleMenuClose.bind(this)}>
@@ -72,10 +73,6 @@ export default class Header extends React.Component {
                         </ul>
                     </div>
                 </nav>
-                <button id="menu-open" className="menu-toggle" ref={this.menuOpenRef} onClick={this.handleMenuOpen.bind(this)}>
-                    <span className="screen-reader-text">Close Menu</span>
-                    <span className="icon-menu" aria-hidden="true" />
-                </button>
             </React.Fragment>
         );
     }
@@ -96,11 +93,15 @@ export default class Header extends React.Component {
             <header id="masthead" className="site-header outer">
                 <div className="inner">
                     <div className="site-header-inside">
+                    <button id="menu-open" className="menu-toggle" ref={this.menuOpenRef} onClick={this.handleMenuOpen.bind(this)}>
+                        <span className="screen-reader-text">Close Menu</span>
+                        <span className="icon-menu" aria-hidden="true" />
+                    </button>
                         <div className="site-branding">
                             {logoImage && (
                                 <p className="site-logo">
                                     <Link href={withPrefix('/')}>
-                                        <img src={withPrefix(logoImage)} alt={logoImageAlt} /> ampro
+                                        <img src={withPrefix(logoImage)} alt={logoImageAlt} />&nbsp;ampro
                                     </Link>
                                 </p>
                             )}

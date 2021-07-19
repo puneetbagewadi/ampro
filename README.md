@@ -1,17 +1,17 @@
-# ✨ Azimuth Nextjs Theme ✨
+# ✨ Ampro Nextjs Theme ✨
 
-This is Stackbit's "Azimuth" theme built with [Next.js](https://nextjs.org/) and
+This is Stackbit's "Ampro" theme built with [Next.js](https://nextjs.org/) and
 powered by content stored in files.
 
 Click the button below to create a new website from this theme using Stackbit:
 
 <p align="center">
-  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
+  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/Ampro-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
 </p>
 
-[Live Site Demo](https://themes.stackbit.com/demos/azimuth/)
+[Live Site Demo](https://themes.stackbit.com/demos/Ampro/)
 
-<img src="https://themes.stackbit.com/images/azimuth-demo-1024x768.png" width="600">
+<img src="https://themes.stackbit.com/images/Ampro-demo-1024x768.png" width="600">
 
 The theme can be used to create a static website that is hosted by a serverless
 deployment platform such as [Netlify](https://www.netlify.com). The contents of
@@ -32,7 +32,7 @@ update the content files and instantly see your updates in the browser.
 
 ## Quick Start 🏎
 
-[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/Ampro-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
 Stackbit will execute following steps for you
 
@@ -65,7 +65,7 @@ If you need a hand, make sure to check the [Stackbit support page](https://stack
 
 ## Develop Locally
 
-1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/Ampro-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
 1. Once finished, you will be redirected to Stackbit Studio where you will be
    able to edit the content using the free on-page editing experience, and

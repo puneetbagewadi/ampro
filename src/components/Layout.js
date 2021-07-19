@@ -53,7 +53,7 @@ export default class Body extends React.Component {
     render() {
         const page = _.get(this.props, 'page');
         const config = _.get(this.props, 'config');
-        const font = _.get(config, 'base_font', 'nunito-sans');
+        const font = _.get(config, 'base_font', 'google-sans');
         const favIcon = _.get(config, 'favicon');
         const palette = _.get(config, 'palette', 'blue');
         const domain = _.trim(_.get(config, 'domain', ''), '/');
@@ -93,12 +93,12 @@ export default class Body extends React.Component {
                     {!_.isEmpty(seoRobots) && <meta name="robots" content={seoRobots} />}
                     {seoExtra}
                     {font !== 'system-sans' && <link rel="preconnect" href="https://fonts.gstatic.com" />}
-                    {font === 'nunito-sans' && (
-                        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+                    {font === 'google-sans' && (
+                        <link href="//fonts.googleapis.com/css?family=Google+Sans:400,500%7CRoboto:400,500%7C&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese&amp;display=swap" rel="preconnect stylesheet" crossorigin></link>
                     )}
-                    {font === 'fira-sans' && (
+                    {/* {font === 'google-sans' && (
                         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
-                    )}
+                    )} */}
                     {favIcon && <link rel="icon" href={withPrefix(favIcon)} />}
                     <body className={classNames(`palette-${palette}`, `font-${font}`)} />
                 </Helmet>

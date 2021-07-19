@@ -1,7 +1,7 @@
 {
-    "title": "Azimuth",
+    "title": "Ampro",
     "path_prefix": "/",
-    "base_font": "nunito-sans",
+    "base_font": "google-sans",
     "palette": "blue",
     "header": {
         "logo_img": "images/ampro-logo.jpeg",
@@ -39,10 +39,10 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/logo-alt.svg",
+                "image": "images/ampro-logo.jpeg",
                 "image_url": "/",
                 "image_alt": "Footer logo",
-                "content": "Stackbit theme demo"
+                "content": "E-Tender for Chillies"
             },
             {
                 "type": "footer_nav",
@@ -131,6 +131,6 @@
                 "style": "link"
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
+        "content": "&copy; Ampro. All rights reserved."
     }
 }

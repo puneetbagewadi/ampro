@@ -81,10 +81,10 @@ models:
         name: base_font
         label: Font
         options:
-          - fira-sans
-          - nunito-sans
+          - google-sans
+          - google-sans
           - system-sans
-        default: nunito-sans
+        default: google-sans
         required: true
       - type: model
         name: header

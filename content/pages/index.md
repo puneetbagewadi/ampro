@@ -7,7 +7,7 @@ sections:
     image_alt: App preview
     title: This Is A Big Hero Headline
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
+      Ampro is the perfect theme for developers, designers and entrepreneurs
       who need a sleek, modern SaaS site.
     actions:
       - label: Learn More
@@ -103,17 +103,17 @@ sections:
     background: gray
     title: Latest Posts
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Stackbit Ampro Theme
+  description: The preview of the Ampro theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Stackbit Ampro Theme
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: The preview of the Ampro theme
       keyName: property
     - name: 'og:image'
       value: images/hero.png
@@ -122,9 +122,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: Stackbit Ampro Theme
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: The preview of the Ampro theme
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true

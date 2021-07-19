@@ -1,5 +1,5 @@
 ---
-title: Release Notes - Azimuth Improvements and New Integrations
+title: Release Notes - Ampro Improvements and New Integrations
 subtitle: >-
   Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
   massa primis.
@@ -10,7 +10,7 @@ excerpt: >-
 date: '2017-03-26'
 thumb_image: images/1_thumb.jpg
 seo:
-  title: Release Notes - Azimuth Improvements and New Integrations
+  title: Release Notes - Ampro Improvements and New Integrations
   description: >-
     Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
     massa primis.
@@ -19,7 +19,7 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Release Notes - Azimuth Improvements and New Integrations
+      value: Release Notes - Ampro Improvements and New Integrations
       keyName: property
     - name: 'og:description'
       value: >-
@@ -33,7 +33,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Release Notes - Azimuth Improvements and New Integrations
+      value: Release Notes - Ampro Improvements and New Integrations
     - name: 'twitter:description'
       value: >-
         Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum

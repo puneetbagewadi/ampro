@@ -43,6 +43,14 @@
 .widget-image {
   display: block;
   margin-bottom: 0.75em;
+  text-decoration: none;
+  font-size: 115%;
+  letter-spacing: 0.1em;
+  color: #FFFFFF !important;
+  font-weight: 500;
+  img {
+    width: 30px;
+  }
 }
 
 .widget-title {

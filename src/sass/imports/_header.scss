@@ -1,11 +1,15 @@
 .site-header {
   background: #fff;
   color: $gray-700;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 0.8em;
+  padding-top: 0.8em;
 
   a {
     text-decoration: none;
+  }
+  .inner {
+    margin: 0;
+    min-width: 100%;
   }
 }
 
@@ -28,7 +32,7 @@
   line-height: 1.2;
   margin: 0;
 
-  .font-fira-sans & {
+  .font-google-sans & {
     font-weight: 600;
   }
 }
@@ -37,7 +41,7 @@
   margin: 0;
 
   img {
-    max-height: 40px;
+    max-height: 30px;
   }
 }
 
@@ -51,12 +55,14 @@
   .site-branding {
     a {
       color: inherit;
+      letter-spacing: 0.1em;
+      font-size: 115%;
     }
   }
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: $color-primary;
     }
 
     a:not(.button) {
@@ -75,7 +81,7 @@
   }
 
   .site-navigation {
-    margin-left: auto;
+    margin-left: 40px;
 
     .menu-item {
       display: inline-block;
@@ -150,7 +156,7 @@
   }
 
   #menu-open {
-    margin-left: auto;
+    margin-right: 15px;
   }
 
   #menu-close {
@@ -165,16 +171,16 @@
     height: 100vh;
     -webkit-overflow-scrolling: touch;
     position: absolute;
-    right: -400px;
+    left: -400px;
     top: 0;
-    -webkit-transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
-    transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
+    -webkit-transition: left .3s ease-in-out, visibility 0s .3s ease-in-out;
+    transition: left .3s ease-in-out, visibility 0s .3s ease-in-out;
     visibility: hidden;
     width: 400px;
     z-index: 999;
 
     .menu {
-      padding: 3.66667em $container-padding 2.5em;
+      padding: 3.66667em $container-padding-sm 2.5em;
     }
 
     .menu-item {
@@ -213,7 +219,7 @@
   .menu--opened {
     .site {
       height: 100%;
-      left: 0;
+      right: 0;
       overflow: hidden;
       position: fixed;
       top: 0;
@@ -224,9 +230,9 @@
     }
 
     .site-navigation {
-      right: 0;
-      -webkit-transition: right .3s ease-in-out;
-      transition: right .3s ease-in-out;
+      left: 0;
+      -webkit-transition: left .3s ease-in-out;
+      transition: left .3s ease-in-out;
       visibility: visible;
     }
 
@@ -247,7 +253,6 @@
   }
 
   #menu-close {
-    right: $container-padding;
-    top: $container-padding;
+    left: $container-padding-sm;
   }
 }

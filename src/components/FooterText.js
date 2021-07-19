@@ -18,10 +18,12 @@ export default class FooterText extends React.Component {
                     (imageUrl ? (
                         <Link className="widget-image" href={withPrefix(imageUrl)}>
                             <img src={withPrefix(image)} alt={imageAlt} />
+                            &nbsp;ampro
                         </Link>
                     ) : (
                         <p className="widget-image">
                             <img src={withPrefix(image)} alt={imageAlt} />
+                            &nbsp;ampro
                         </p>
                     ))}
                 {title && <h2 className="widget-title">{title}</h2>}

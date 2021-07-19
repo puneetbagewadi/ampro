@@ -1,5 +1,5 @@
 ---
-title: Behind the Scenes - The Design of Azimuth
+title: Behind the Scenes - The Design of Ampro
 excerpt: >-
   Quisque ultrices metus sed libero ultricies condimentum. Suspendisse ut
   faucibus purus. Mauris at pharetra risus.
@@ -8,14 +8,14 @@ date: '2018-01-09'
 thumb_image: images/6_thumb.jpg
 image: images/6.jpg
 seo:
-  title: Behind the Scenes - The Design of Azimuth
+  title: Behind the Scenes - The Design of Ampro
   description: Quisque ultrices metus sed libero ultricies condimentum.
   extra:
     - name: 'og:type'
       value: article
       keyName: property
     - name: 'og:title'
-      value: Behind the Scenes - The Design of Azimuth
+      value: Behind the Scenes - The Design of Ampro
       keyName: property
     - name: 'og:description'
       value: Quisque ultrices metus sed libero ultricies condimentum.
@@ -27,7 +27,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Behind the Scenes - The Design of Azimuth
+      value: Behind the Scenes - The Design of Ampro
     - name: 'twitter:description'
       value: Quisque ultrices metus sed libero ultricies condimentum.
     - name: 'twitter:image'
