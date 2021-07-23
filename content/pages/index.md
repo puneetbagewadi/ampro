@@ -103,14 +103,14 @@ sections:
     background: gray
     title: Latest Posts
 seo:
-  title: Stackbit Ampro Theme
+  title: Ampro
   description: The preview of the Ampro theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Ampro Theme
+      value: Ampro
       keyName: property
     - name: 'og:description'
       value: The preview of the Ampro theme
@@ -122,7 +122,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Ampro Theme
+      value: Ampro
     - name: 'twitter:description'
       value: The preview of the Ampro theme
     - name: 'twitter:image'

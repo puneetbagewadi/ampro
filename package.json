@@ -1,6 +1,6 @@
 {
-  "name": "Ampro-nextjs",
-  "description": "A Stackbit Ampro theme built with Next.js",
+  "name": "ampro-nextjs",
+  "description": "A Ampro theme built with Next.js",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
